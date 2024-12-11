@@ -1,3 +1,13 @@
+import os
+
+def clear_screen():
+    # Windows
+    if os.name == 'nt':
+        _ = os.system('cls')
+    # MacOS/Linux
+    else:
+        _ = os.system('clear')
+
 class InMemoryDB:
     def __init__(self):
         self.data = {}
@@ -48,6 +58,7 @@ def main():
     print("\nWelcome to the In-Memory Database CLI!\n")
     print("Remember, you must start a transaction before performing other operations.\n")
     while True:
+        clear_screen()
         print("----------------------------------------------------------")
         print("Choose an option by entering the corresponding number:\n")
         print("1. Begin Transaction")
@@ -79,6 +90,7 @@ def main():
                 print("Invalid choice. Please select a valid option.")
         except Exception as e:
             print(f"Error: {e}")
+        input("\nPress Enter to continue...")
 
 if __name__ == "__main__":
     main()
