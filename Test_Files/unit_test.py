@@ -1,17 +1,16 @@
-# File: test_unit.py
+# File: unit_test.py
 import sys
 import os
 
-# Add the directory containing your module to the Python path
+# Adjust path to import InMemoryDB from the parent directory
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
+from main import InMemoryDB
 import unittest
-from in_memory_db import InMemoryDB
 
 class TestInMemoryDB(unittest.TestCase):
     def test_get_nonexistent_key(self):
         db = InMemoryDB()
-        self.assertEqual(db.get("Y"), "Key not found")
+        self.assertEqual(db.get("Y"), "Key not found.")
 
     def test_put_without_transaction(self):
         db = InMemoryDB()

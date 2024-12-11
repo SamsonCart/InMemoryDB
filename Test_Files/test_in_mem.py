@@ -5,7 +5,7 @@ import os
 # Add the directory containing your module to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from in_memory_db import InMemoryDB
+from main import InMemoryDB
 
 def main():
     db = InMemoryDB()
