@@ -62,12 +62,4 @@ After starting the application, you will be prompted with a menu to select vario
 This in-memory database project provides a basic yet powerful example of transactional data management within software applications. It serves as an educational tool for understanding database operations and transactional integrity.
 
 
-### Instructions for Use:
-1. Open your GitHub repository.
-2. Navigate to the `README.md` file or create one if it doesn't exist.
-3. Click on the 'Edit' button (usually represented by a pencil icon).
-4. Copy the Markdown formatted text provided above and paste it into the GitHub editor.
-5. Commit the changes.
-
-This Markdown text will retain all formatting when viewed on GitHub, ensuring your README is both functional and attractive. If you have any more adjustments or additions you'd like to make, let me know!
 
