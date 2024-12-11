@@ -38,8 +38,8 @@ This project implements an in-memory key-value database with transaction support
 
 To run the unit tests, use the following command from the project directory:
 
-```bash
-python -m unittest test.unit_test
+   ```bash
+   python -m unittest test.unit_test
 
 ---
 
