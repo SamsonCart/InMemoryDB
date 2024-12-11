@@ -48,12 +48,15 @@ python test.test_in_mem.py
 
 After starting the application, you will be prompted with a menu to select various operations. Follow the on-screen prompts to begin transactions, add or update keys, retrieve values, commit or rollback transactions, or exit the program.
 
-## Future Improvements
+## Assignment Feedback and Suggestions for Improvement
 
-- **Persistence**: Implement functionality to persist data to disk, allowing the database to maintain state between sessions.
-- **Concurrency**: Add support for handling multiple concurrent transactions.
-- **Error Handling**: Enhance error messages and handling to provide more detailed feedback on operation failures.
-- **User Interface**: Improve the CLI to include more detailed user interactions or migrate to a graphical user interface for easier use.
+This assignment provides a solid foundation for understanding basic database operations and transaction management. However, there are several areas where the assignment could be enhanced to improve clarity and learning depth:
+
+- **Instructions Clarification**: More detailed descriptions of expected behaviors for undefined keys and error handling during transactions would aid in consistent implementation across submissions.
+- **Feature Complexity**: Incorporating features like concurrency management and savepoints would offer a more realistic and challenging learning experience.
+- **Testing Specifications**: Clear requirements for test scenarios, including stress tests and concurrency tests, would ensure comprehensive testing coverage.
+- **Grading Criteria**: A more detailed grading rubric, including code style and performance considerations, would provide clearer targets for students to aim for excellence.
+- **Extension of Learning Objectives**: Suggesting further developments like networking capabilities or discussions on scalability could provide pathways for continued learning.
 
 ## Conclusion
 
